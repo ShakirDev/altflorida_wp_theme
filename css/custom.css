@@ -1,0 +1,148 @@
+.altf_header_top {
+    background-color: #32313F;
+    height: 43px;
+    display: flex;
+    align-items: center;
+
+}
+
+a.transition i {
+    transition: all 0.5s ease;
+}
+
+a.transition:hover i {
+    transform: scale(1.2);
+    color: #FFD700;
+}
+
+
+/*Header-Navbar Css*/
+.altf_header_nav {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.altf_logo {
+    width: 50%;
+}
+
+/*Menu Style*/
+.altf_header_nav .col-md-9 ul li {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* Added z-index */
+}
+
+.altf_header_nav .col-md-9 ul li a {
+    color: #ffffff;
+    padding: 10px 15px;
+    padding-bottom: 20px;
+    /* Increased padding at the bottom */
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.altf_header_nav .col-md-9 ul li a:hover {
+    background: #ea1a70;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+
+/*Dropdown Menu*/
+.altf_header_nav .col-md-9 ul li ul {
+    background: #262626 none repeat scroll 0 0;
+    left: -99999px;
+    margin: 0;
+    position: absolute;
+    text-align: left;
+    top: 40px;
+    /* Reduced the top value */
+    width: 200px;
+    z-index: 0;
+    /* Added z-index */
+}
+
+.altf_header_nav .col-md-9 ul li:hover ul {
+    left: 0px;
+}
+
+.altf_header_nav .col-md-9 ul li ul li {
+    display: block;
+}
+
+.altf_header_nav .col-md-9 ul li ul li a {
+    color: #fff;
+    padding: 8px 10px;
+}
+
+.altf_header_nav .col-md-9 ul li ul li a:hover {
+    background: #ddd;
+    color: #262626;
+}
+
+.altf_header_nav .col-md-9 ul li:hover a {
+    background: #ea1a70;
+    color: #fff;
+}
+
+.altf_header_nav .col-md-9 ul li:hover ul li a {
+    background: none;
+    color: #fff;
+}
+
+/*Sub Dropdown Menu*/
+.altf_header_nav .col-md-9 ul li ul ul {
+    left: -99999px;
+    top: 0;
+    position: absolute;
+}
+
+.altf_header_nav .col-md-9 ul li:hover ul li ul {
+    left: -999999px;
+}
+
+.altf_header_nav .col-md-9 ul li ul li:hover ul {
+    left: 200px;
+}
+
+.altf_header_nav .col-md-9 ul li ul li:hover a {
+    background: #ea1a70;
+    color: #fff;
+}
+
+.altf_header_nav .col-md-9 ul ul li:hover ul li a {
+    background: #262626;
+    color: #fff;
+}
+
+.altf_header_nav .col-md-9 ul ul li ul li a:hover {
+    background: #ea1a70;
+    color: #fff;
+}
+
+/*======================
+Menu Alignment
+=======================*/
+
+.row.left_align .col-md-3 {
+    order: 2;
+}
+
+.row.left_align .col-md-9 {
+    order: 1;
+}
+
+.row.left_align .col-md-3 ul {
+    text-align: left;
+}

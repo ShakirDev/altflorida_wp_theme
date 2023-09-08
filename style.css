@@ -1,0 +1,17 @@
+/*================ 
+Theme Name: ALTFlorida Transport inc.
+Theme URI: #
+Author: Shakir Ahmed Joy
+Author URI: https: //zufaa.com/
+Tested up to: 6.3
+Requires PHP: 5.6
+Version: 1.5
+Description: This is a test theme. Doing it for pratice purpose.
+License: GNU General Public License v2 or later 
+License URI: http: //www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentytwo
+
+=================*/
+body {
+    background-color: bisque;
+}
